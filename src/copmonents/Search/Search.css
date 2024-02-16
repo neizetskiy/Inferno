@@ -1,0 +1,33 @@
+.search{
+    width: 200px;
+    padding: 4px 10px;
+    font-family: 'Jost';
+    text-transform: uppercase;
+    outline: none;
+}
+
+.searchform{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+.searchresults{
+    position: absolute;
+    top: 40px;
+    z-index: 999;
+    left: 20px;
+    background-color: white;
+    width: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.searchlink{
+    color: black;
+}
